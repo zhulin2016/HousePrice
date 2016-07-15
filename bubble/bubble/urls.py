@@ -20,4 +20,5 @@ from django.conf.urls import url, include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^boom/', include('boom.urls')),
+    url(r'^maid/', include('maid.urls')),
 ]
